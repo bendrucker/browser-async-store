@@ -1,0 +1,34 @@
+{
+  "name": "browser-async-store",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Wrap Web Storage APIs in an asynchronous API",
+  "license": "MIT",
+  "repository": "bendrucker/browser-async-store",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "web",
+    "storage",
+    "async"
+  ],
+  "devDependencies": {
+    "localStorage": "~1.0.3",
+    "standard": "^4.0.0",
+    "tape": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "assert-ok": "~1.0.0",
+    "dezalgo": "~1.0.3",
+    "xtend": "~4.0.0"
+  }
+}
